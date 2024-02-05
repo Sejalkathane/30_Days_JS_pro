@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Drum Show</h1>
+    <div id="whole">
+      <button id="clap" class="key" onclick="clap_fun()">
+        <kbd>A</kbd>
+        <span class="sound">Clap</span>
+      </button> 
+      <button id="hihat" class="key" onclick="hithat_fun()">
+        <kbd>S</kbd>
+        <span class="sound">Hihat</span>
+      </button>
+      <button id="kick" class="key" onclick="kick_fun()">
+        <kbd>D</kbd>
+        <span class="sound">Kick</span>
+      </button>
+      <button id="openhat" class="key" onclick="open_fun()">
+        <kbd>F</kbd>
+        <span class="sound">Open</span>
+      </button>
+      <button id="boom" class="key" onclick="boom_fun()">
+        <kbd>G</kbd>
+        <span class="sound">Boom</span>
+      </button>
+      <button id="ride" class="key" onclick="ride_fun()">
+        <kbd>H</kbd>
+        <span class="sound">Ride</span>
+      </button>
+      <button id="snare" class="key" onclick="snare_fun()">
+        <kbd>J</kbd>
+        <span class="sound">Snare</span>
+      </button>
+      <button id="tom" class="key" onclick="tom_fun()">
+        <kbd>K</kbd>
+        <span class="sound">Tom</span>
+      </button>
+      <button id="tink" class="key" onclick="tink_fun()">
+        <kbd>L</kbd>
+        <span class="sound">Tink</span>
+      </button>
+    </div>
+
+    <audio id="clap_el" src="/day1/impdoc/clap.wav" preload="auto"></audio>
+    <audio id="hithat_el" src="/day1/impdoc/hihat.wav" preload="auto"></audio>
+    <audio id="kick_el" src="/day1/impdoc/kick.wav" preload="auto"></audio>
+    <audio id="openhat_el" src="/day1/impdoc/openhat.wav"preload="auto"></audio>
+    <audio id="boom_el" src="/day1/impdoc/boom.wav" preload="auto"></audio>
+    <audio id="ride_el" src="/day1/impdoc/ride.wav" preload="auto"></audio>
+    <audio id="snare_el" src="/day1/impdoc/snare.wav" preload="auto"></audio>
+    <audio id="tom_el" src="/day1/impdoc/tom.wav" preload="auto"></audio>
+    <audio id="tink_el" src="/day1/impdoc/tink.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>

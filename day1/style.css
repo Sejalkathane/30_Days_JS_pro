@@ -1,0 +1,87 @@
+body {
+    background-image: url("/day1/impdoc/newback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+
+  h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 5px 3px  rgb(0, 0, 0);
+    text-decoration: underline;
+
+  }
+  
+  kbd {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .key {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    flex-flow: column;
+    display: inline-block;
+    padding: 5px;
+    margin: 28px;
+    margin-top: 150px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 2px 1px 10px 5px rgb(141, 230, 255);
+    text-shadow: 2px 2px  rgb(255, 255, 255);
+  }
+  
+  .key:hover {
+    box-shadow: 2px 1px 20px 8px rgb(141, 230, 255);
+    border: none;
+  }
+
+#clap{
+    background-image: url('/day1/impdoc/backimg/cl1.jfif');
+}
+
+#hihat{
+    background-image: url('/day1/impdoc/backimg/cl2.jfif');
+}
+
+#kick{
+    background-image: url('/day1/impdoc/backimg/cl3.jfif');
+
+}
+
+#openhat{
+    background-image: url('/day1/impdoc/backimg/cl2.jfif');
+}
+
+#boom{
+    background-image: url('/day1/impdoc/backimg/cl3.jfif');
+}
+
+#ride{
+    background-image: url('/day1/impdoc/backimg/cl4.jpg');
+}
+
+#snare{
+    background-image: url('/day1/impdoc/backimg/cl5.jfif');
+}
+
+#tom{
+    background-image: url('/day1/impdoc/backimg/cl6.png');
+
+}
+#tink{
+    background-image: url('/day1/impdoc/backimg/cl6.png');
+
+}
