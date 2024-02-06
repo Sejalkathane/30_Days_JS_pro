@@ -1,0 +1,94 @@
+body {
+  background-color: whitesmoke;
+}
+
+#clock {
+  background-color: rgb(255, 255, 255);
+  width: 650px;
+  height: 650px;
+  /* top: 10px; */
+  left: 450px;
+  position: relative;
+  border-radius: 500px;
+  border: 20px solid rgb(221, 221, 221);
+  border-left: 20px solid rgb(229, 229, 229);
+  border-right: 20px solid rgb(229, 229, 229);
+  box-shadow: 5px 5px 10px 10px rgba(120, 120, 120, 0.3);
+}
+
+#dot {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(233, 233, 233);
+  position: absolute;
+  top: 297px;
+  left: 313px;
+  border-radius: 30px;
+}
+
+#sec {
+  width: 255px;
+  height: 10px;
+  top: 307px;
+  left: 325px;
+  background: #61afff;
+  position: absolute;
+  border-radius: 6px;
+  transform-origin: left center;
+}
+#hour {
+  width: 155px;
+  height: 15px;
+  top: 305px;
+  left: 325px;
+  background: #ff6161;
+  position: absolute;
+  border-radius: 6px;
+  transform-origin: left center;
+}
+#min {
+  width: 265px;
+  height: 15px;
+  top: 307px;
+  left: 325px;
+  background: #73ff00;
+  position: absolute;
+  border-radius: 6px;
+  transform-origin: left center;
+}
+
+#twl {
+  width: 25px;
+  height: 40px;
+  background-color: rgb(145, 145, 145);
+  top: 0px;
+  left: 310px;
+  position: absolute;
+}
+#three {
+  width: 25px;
+  height: 40px;
+  background-color: rgb(145, 145, 145);
+  top: 305px;
+  left: 620px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+#six {
+  width: 25px;
+  height: 40px;
+  background-color: rgb(145, 145, 145);
+  top: 610px;
+  left: 310px;
+  position: absolute;
+}
+#nine {
+  width: 25px;
+  height: 40px;
+  background-color: rgb(145, 145, 145);
+  top: 305px;
+  left: 5px;
+  position: absolute;
+  transform: rotate(90deg);
+}
