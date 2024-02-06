@@ -22,4 +22,5 @@ function man() {
   //   document.querySelector("#sec").style.transform = `rotate(${second-90}deg)`;
 }
 
+
 setInterval(man, 1000);
